@@ -1,20 +1,3 @@
-# Na každém portálu si v prohlížeči nastav filtry (Cupra, model, cena, rok, km, palivo…),
-# ideálně seřaď od nejnovějších, a adresu z řádku prohlížeče vlož sem místo VLOZ_ODKAZ.
-# Hledání, které nechceš, smaž nebo zakomentuj (#). Můžeš přidat i víc hledání na jednom portálu.
-# "nazev" se objeví v upozornění. "vzor" je nepovinný (jen když skript odkazy na inzeráty nenajde).
-
 hledani:
-  - nazev: "Sauto"
-    url: "VLOZ_ODKAZ"
-
-  - nazev: "TipCars"
-    url: "VLOZ_ODKAZ"
-
-  - nazev: "Bazoš"
-    url: "VLOZ_ODKAZ"
-
-  - nazev: "AutoScout24"
-    url: "VLOZ_ODKAZ"
-
-  - nazev: "mobile.de"
-    url: "VLOZ_ODKAZ"
+  - nazev: "Sauto – Formentor"
+    url: "https://www.sauto.cz/inzerce/osobni/cupra/formentor?kraj=moravskoslezsky-kraj%2Colomoucky-kraj%2Cjihomoravsky-kraj%2Czlinsky-kraj%2Ckraj-vysocina&cena-do=650000&vyrobeno-od=2024&km-do=50000&palivo=benzin&barva=bezova%2Ccerna%2Cmodra%2Cseda%2Czelena%2Cjina"
