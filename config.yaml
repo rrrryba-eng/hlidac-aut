@@ -1,3 +1,9 @@
 hledani:
   - nazev: "Sauto – Formentor"
     url: "https://www.sauto.cz/inzerce/osobni/cupra/formentor?kraj=moravskoslezsky-kraj%2Colomoucky-kraj%2Cjihomoravsky-kraj%2Czlinsky-kraj%2Ckraj-vysocina&cena-do=650000&vyrobeno-od=2024&km-do=50000&palivo=benzin&barva=bezova%2Ccerna%2Cmodra%2Cseda%2Czelena%2Cjina"
+
+  - nazev: "TipCars – Cupra"
+    url: "https://www.tipcars.com/cupra-formentor/benzin?2024-=&-650000kc=&-50000km=&barva=vinova,vinova-metaliza,fialova,fialova-metaliza,modra,modra-metaliza,svetle-modra,svetle-modra-metaliza,tmave-modra,tmave-modra-metaliza,zelena,zelena-metaliza,svetle-zelena,svetle-zelena-metaliza,tmave-zelena,tmave-zelena-metaliza,hneda,hneda-metaliza,svetle-hneda,svetle-hneda-metaliza,tmave-hneda,tmave-hneda-metaliza,bezova,bezova-metaliza,stribrna,seda,seda-metaliza,svetle-seda,svetle-seda-metaliza,tmave-seda,tmave-seda-metaliza,cerna,cerna-metaliza&region-multiple=jihomoravsky-kraj,vysocina,moravskoslezsky-kraj,olomoucky-kraj"
+
+  - nazev: "Bazoš – Formentor"
+    url: "https://auto.bazos.cz/?hledat=cupra+formentor&rubriky=auto&hlokalita=74601&humkreis=150&cenaod=500000&cenado=650000&Submit=Hledat&order=&crp=&kitx=ano"
