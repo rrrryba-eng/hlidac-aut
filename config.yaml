@@ -1,0 +1,20 @@
+# Na každém portálu si v prohlížeči nastav filtry (Cupra, model, cena, rok, km, palivo…),
+# ideálně seřaď od nejnovějších, a adresu z řádku prohlížeče vlož sem místo VLOZ_ODKAZ.
+# Hledání, které nechceš, smaž nebo zakomentuj (#). Můžeš přidat i víc hledání na jednom portálu.
+# "nazev" se objeví v upozornění. "vzor" je nepovinný (jen když skript odkazy na inzeráty nenajde).
+
+hledani:
+  - nazev: "Sauto"
+    url: "VLOZ_ODKAZ"
+
+  - nazev: "TipCars"
+    url: "VLOZ_ODKAZ"
+
+  - nazev: "Bazoš"
+    url: "VLOZ_ODKAZ"
+
+  - nazev: "AutoScout24"
+    url: "VLOZ_ODKAZ"
+
+  - nazev: "mobile.de"
+    url: "VLOZ_ODKAZ"
