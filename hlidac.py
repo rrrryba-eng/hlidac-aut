@@ -215,10 +215,23 @@ def main():
                 print(f"[{name}] CHYBA: {e}")
                 continue
             ok_count += 1
+            exclude = [w.lower() for w in s.get("vyloucit", [])]
+            if exclude:
+                found = {k: v for k, v in found.items()
+                         if not any(w in (v[1] + " " + v[0]).lower() for w in exclude)}
             print(f"[{name}] nalezeno {len(found)} inzerátů")
             if test:
                 for href, text in list(found.values())[:15]:
                     print("   -", text[:90], "|", href)
+                if not found:
+                    print("   DIAGNOSTIKA – adresa:", page.url)
+                    print("   DIAGNOSTIKA – titulek:", page.title())
+                    body = " ".join(page.inner_text("body").split())
+                    print("   DIAGNOSTIKA – text stránky:", body[:400])
+                    hrefs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+                    print("   DIAGNOSTIKA – odkazů na stránce:", len(hrefs))
+                    for h in hrefs[:40]:
+                        print("     ", h)
                 continue
             first_run = name not in initialized
             for key, (href, text) in found.items():
